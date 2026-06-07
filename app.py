@@ -53,9 +53,9 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🚀 ClarityOS")
+st.title("ClarityOS")
 st.success(
-    "🤖 Multi-Agent Analysis Platform"
+    "Multi-Agent Analysis Platform"
 )
 
 st.subheader(
@@ -168,27 +168,27 @@ if st.session_state.analysis_done:
         "7"
     )
 
-    st.header("🧠 Meeting Summary")
+    st.header("Meeting Summary")
     st.write(st.session_state.summary)
 
-    st.header("📌 Tasks")
+    st.header("Tasks")
     st.write(st.session_state.tasks)
 
-    st.header("📊 Data Insights")
+    st.header("Data Insights")
 
     for item in st.session_state.insights:
         st.write(f"• {item}")
 
-    st.header("🔗 Correlation Analysis")
+    st.header("Correlation Analysis")
     st.write(st.session_state.correlation)
 
-    st.header("📊 Confidence Scores")
+    st.header("Confidence Scores")
     st.write(st.session_state.confidence)
 
-    st.header("⚠️ Risk Assessment")
+    st.header("Risk Assessment")
     st.write(st.session_state.risks)
 
-    st.header("🧠 Executive Briefing")
+    st.header("Executive Briefing")
     st.write(st.session_state.executive)
 
     report_text = f"""
@@ -221,13 +221,13 @@ if st.session_state.analysis_done:
     with open(pdf_path, "rb") as pdf_file:
 
         st.download_button(
-            "📄 Download Executive Report (PDF)",
+            "Download Executive Report (PDF)",
             pdf_file,
             file_name="ClarityOS_Report.pdf",
             mime="application/pdf"
         )
 
-    st.header("📈 Dataset Preview")
+    st.header("Dataset Preview")
     st.dataframe(df.head(100))
 
     # =========================
