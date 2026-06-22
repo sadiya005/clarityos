@@ -281,7 +281,7 @@ https://github.com/sadiya005/clarityos
 
 **Sadiya Sajid**
 
-🔗 LinkedIn: https://www.linkedin.com/in/sadiyasajid/
+[LinkedIn](https://www.linkedin.com/in/sadiyasajid/)
 
 ---
 
